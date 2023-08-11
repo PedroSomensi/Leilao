@@ -16,6 +16,10 @@
 		C5E461852A85E0B600F18476 /* LeilaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E461842A85E0B600F18476 /* LeilaoTests.swift */; };
 		C5E4618F2A85E0B600F18476 /* LeilaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E4618E2A85E0B600F18476 /* LeilaoUITests.swift */; };
 		C5E461912A85E0B600F18476 /* LeilaoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E461902A85E0B600F18476 /* LeilaoUITestsLaunchTests.swift */; };
+		C5E4619F2A85E17600F18476 /* Bid.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E4619E2A85E17600F18476 /* Bid.swift */; };
+		C5E461A12A85E18900F18476 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E461A02A85E18900F18476 /* User.swift */; };
+		C5E461A32A85E19C00F18476 /* Auction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E461A22A85E19C00F18476 /* Auction.swift */; };
+		C5E461A52A85E24300F18476 /* Auctioneer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E461A42A85E24300F18476 /* Auctioneer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		C5E4618A2A85E0B600F18476 /* LeilaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeilaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5E4618E2A85E0B600F18476 /* LeilaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeilaoUITests.swift; sourceTree = "<group>"; };
 		C5E461902A85E0B600F18476 /* LeilaoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeilaoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C5E4619E2A85E17600F18476 /* Bid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bid.swift; sourceTree = "<group>"; };
+		C5E461A02A85E18900F18476 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C5E461A22A85E19C00F18476 /* Auction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auction.swift; sourceTree = "<group>"; };
+		C5E461A42A85E24300F18476 /* Auctioneer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auctioneer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		C5E4616C2A85E0B600F18476 /* Leilao */ = {
 			isa = PBXGroup;
 			children = (
+				C5E4619D2A85E16A00F18476 /* Model */,
 				C5E4616D2A85E0B600F18476 /* AppDelegate.swift */,
 				C5E4616F2A85E0B600F18476 /* SceneDelegate.swift */,
 				C5E461712A85E0B600F18476 /* ViewController.swift */,
@@ -125,6 +134,17 @@
 				C5E461902A85E0B600F18476 /* LeilaoUITestsLaunchTests.swift */,
 			);
 			path = LeilaoUITests;
+			sourceTree = "<group>";
+		};
+		C5E4619D2A85E16A00F18476 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5E4619E2A85E17600F18476 /* Bid.swift */,
+				C5E461A02A85E18900F18476 /* User.swift */,
+				C5E461A22A85E19C00F18476 /* Auction.swift */,
+				C5E461A42A85E24300F18476 /* Auctioneer.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +279,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5E461722A85E0B600F18476 /* ViewController.swift in Sources */,
+				C5E461A52A85E24300F18476 /* Auctioneer.swift in Sources */,
+				C5E461A32A85E19C00F18476 /* Auction.swift in Sources */,
 				C5E4616E2A85E0B600F18476 /* AppDelegate.swift in Sources */,
 				C5E461702A85E0B600F18476 /* SceneDelegate.swift in Sources */,
+				C5E461A12A85E18900F18476 /* User.swift in Sources */,
+				C5E4619F2A85E17600F18476 /* Bid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
