@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "61C8EE9B-810E-4B91-B287-885B72739297",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Leilao.xcodeproj",
+      "identifier" : "C5E461692A85E0B600F18476",
+      "name" : "Leilao"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:Leilao.xcodeproj",
+        "identifier" : "C5E4617F2A85E0B600F18476",
+        "name" : "LeilaoTests"
+      }
+    }
+  ],
+  "version" : 1
+}

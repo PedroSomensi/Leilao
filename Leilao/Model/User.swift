@@ -13,3 +13,14 @@ struct User {
     let name: String
     
 }
+
+extension User: Equatable {
+    
+    static func == (lhs: User, rhs: User) -> Bool {
+        if lhs.id != rhs.id || lhs.name != rhs.name {
+            return false
+        }
+        return true
+    }
+    
+}
